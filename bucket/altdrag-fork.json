@@ -1,10 +1,10 @@
 {
-    "version": "1.45",
+    "version": "1.46",
     "description": "Easily drag windows when pressing the Alt key",
     "homepage": "https://github.com/RamonUnch/AltDrag",
     "license": "GPL-3.0",
-    "url": "https://github.com/RamonUnch/altdrag/releases/download/1.45/AltDrag1.45bin.zip",
-    "hash": "08f90be2e2fca07d818f76807ec2c302b90edb84bc73ecd063b03ce5c0e231e9",
+    "url": "https://github.com/RamonUnch/altdrag/releases/download/1.46/AltDrag1.46bin.zip",
+    "hash": "1aa035f565b4a253b71b96c157deda46aa54051911164e44f2bdcf3f6a6019c0",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\AltDrag.ini\")) {",
         "    (Get-Content \"$dir\\AltDrag.ini\") -replace 'CheckOnStartup=1', 'CheckOnStartup=0' | Set-Content \"$dir\\AltDrag.ini\" -Encoding ASCII",
