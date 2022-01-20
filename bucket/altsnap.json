@@ -1,10 +1,10 @@
 {
-    "version": "1.48",
+    "version": "1.49",
     "description": "Easily drag windows when pressing the Alt key",
     "homepage": "https://github.com/RamonUnch/AltSnap",
     "license": "GPL-3.0",
-    "url": "https://github.com/RamonUnch/altsnap/releases/download/1.48/AltSnap1.48bin.zip",
-    "hash": "f7a57f4f78da2f47c3b92ca9128085295595cc7a5d9679ef3ca12a0ebdd796b4",
+    "url": "https://github.com/RamonUnch/altsnap/releases/download/1.49/AltSnap1.49bin.zip",
+    "hash": "8bc222a6ec40ac1153cddcc33adca48f2d4ff22435f1831a031b9c9780d5aef3",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\AltSnap.ini\")) {",
         "    (Get-Content \"$dir\\AltSnap.ini\") -replace 'CheckOnStartup=1', 'CheckOnStartup=0' | Set-Content \"$dir\\AltSnap.ini\" -Encoding ASCII",
