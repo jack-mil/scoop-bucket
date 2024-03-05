@@ -3,12 +3,13 @@
 This repo contains [scoop](https://scoop.sh/) manifests that I made or updated that have yet to be merged in the default `main` or `extras` scoop buckets.
 
 ## Applications ##
+- None right now
+
+## Available in `main` or `extras` official buckets
 - [KiCAD](https://kicad.org/) Open-Source PCB Design software.
-  - Version 7.0.0 broke the old manifest on the `extras` bucket. Changes being tracked in Issue [#10537](https://github.com/ScoopInstaller/Extras/issues/10573). Available here in the mean time.
+  - Version 7.0.0 onwards available after Issue [#10537](https://github.com/ScoopInstaller/Extras/issues/10573). 
 - [SoundSwitch](https://github.com/Belphemur/SoundSwitch) Windows Audio output source manager
-  - Current Manifest in the `extras` bucket does not automatically update properly.
-  - Issue and PR to `extras` tracked in Issue [#10623](https://github.com/ScoopInstaller/Extras/issues/10623). Available here in the mean time.
-## Deprecated
+  - Issue and PR to `extras` tracked in Issue [#10623](https://github.com/ScoopInstaller/Extras/issues/10623). Merged and working
 - [Windows Terminal Preview](https://github.com/microsoft/terminal/)
   - Now available on the `versions` bucket. But, installer does not work well with Scoop, Windows store version generally recommended.
 - [AltSnap](https://github.com/RamonUnch/AltSnap)
