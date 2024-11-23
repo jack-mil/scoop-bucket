@@ -1,9 +1,9 @@
 # Personal Scoop Bucket #
 
-This repo contains [scoop](https://scoop.sh/) manifests that I made or updated that have yet to be merged in the default `main` or `extras` scoop buckets.
+This repo contains [scoop](https://scoop.sh/) manifests that I made or updated for myself that may or may be merged in the default `main` or `extras` scoop buckets.
 
 ## Applications ##
-- [mpv-git](https://mpv.io/) Almost the same as `extras/mpv-git` but without the persist local config (personal preference, because reasons) and use the Github Releases instead of Sourceforge. Daily builds by (~~some guy~~) [shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake). Endorsed by MPV.io (?)
+- [**mpv-git**](https://mpv.io/) Almost the same as [extras/mpv-git](https://scoop.sh/#/apps?q=mpv-git&id=72b493d66b164257cc87db56a4f581688afc13be) but without the persist local config (personal preference, because reasons). I'm also using x86_64-v3 builds for my machine. Daily builds by (~~some guy~~) [shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake). Endorsed by MPV.io (?). Also I removed adding to PATH because I don't use mpv.net GUIs
 
 ## Available in `main` or `extras` official buckets
 - [KiCAD](https://kicad.org/) Open-Source PCB Design software.
