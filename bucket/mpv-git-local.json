@@ -3,9 +3,7 @@
     "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
-    "notes": [
-        "To set and unset file type associations and AutoPlay handlers, run '$dir\\installer\\mpv-install.bat' and '$dir\\installer\\mpv-uninstall.bat' as administrator, respectively."
-    ],
+    "notes": "To set and unset file type associations and AutoPlay handlers, run '$dir\\installer\\mpv-install.bat' and '$dir\\installer\\mpv-uninstall.bat' as administrator, respectively.",
     "suggest": {
         "yt-dlp": "yt-dlp"
     },
@@ -16,6 +14,12 @@
         }
     },
     "pre_install": "Remove-Item \"$dir\\updater.bat\"",
+    "bin": [
+        [
+            "mpv.exe",
+            "mpv"
+        ]
+    ],
     "shortcuts": [
         [
             "mpv.exe",
