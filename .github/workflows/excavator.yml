@@ -1,7 +1,9 @@
 # Executes once a week (Sunday) to fetch updates from all manifests
 on:
+  workflow_dispatch:
   schedule:
-  - cron: '37 4 * * 0'
+    # At 04:37 on Sunday.
+    - cron: '37 4 * * 0'
 name: Excavator
 jobs:
   excavate:
