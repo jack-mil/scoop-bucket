@@ -1,18 +1,16 @@
 # Executes once a week (Sunday) to fetch updates from all manifests
-
 on:
   schedule:
   - cron: '37 4 * * 0'
 name: Excavator
 jobs:
   excavate:
-    name: Excavator
+    name: Excavate
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@main
-    - name: Excavator
-      uses: shovel-org/GithubActions@main
+    - name: Update Manifests
+      uses: ScoopInstaller/GithubActions@main
       env:
-        GITH_EMAIL: 62065280+jack-mil@users.noreply.github.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
