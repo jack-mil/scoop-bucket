@@ -1,5 +1,5 @@
 {
-    "version": "20250201",
+    "version": "20250203",
     "description": "MPV but using system config path (instead of portable scoop-local config) (builds by shinchiro)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20250201/mpv-x86_64-v3-20250201-git-86383ae.7z",
-            "hash": "9e9331152f78329a60b0dd20c507ebcd132aade1a8027d3725c3f66666bf8010"
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20250203/mpv-x86_64-v3-20250203-git-38ad1ed.7z",
+            "hash": "438a4794a345f34d94988d18fb1c9263891eec5267540dcb1d0d1a6d747684c4"
         }
     },
     "pre_install": "Remove-Item \"$dir\\updater.bat\"",
