@@ -4,6 +4,7 @@ This repo contains [scoop](https://scoop.sh/) manifests that I made or updated f
 
 ## Applications ##
 - [**mpv-git**](https://mpv.io/) Almost the same as [extras/mpv-git](https://scoop.sh/#/apps?q=mpv-git&id=72b493d66b164257cc87db56a4f581688afc13be) but using the Github releases instead of sourceforge, configured without the persistent local config (personal preference, because reasons). I'm also using x86_64-v3 builds for my machine. Daily builds by (~~some guy~~) [shinchiro](https://github.com/shinchiro/mpv-winbuild-cmake). Endorsed by MPV.io (?). Also I removed adding to PATH because I don't use mpv.net GUIs
+- [**sioyek3 alpha**](https://github.com/ahrm/sioyek) Very nice PDF reader. Scoop `extras` has the current v2 release. I want to use the dev build for some new features. This could very well break if/when they release another alpha, no idea if they are going to be consistent.**
 - [**whiskers**](https://github.com/catppuccin/whiskers/) Templating tool for the catppuccin color scheme. In this bucket for now because it isn't popular enough for `main` bucket.
 - [**catwalk**](https://github.com/catppuccin/catwalk/) Preview Image generator tool for the catppuccin color scheme. In this bucket for now because it isn't popular enough for `main` bucket.
 
