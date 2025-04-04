@@ -8,6 +8,7 @@ This repo contains [scoop](https://scoop.sh/) manifests that I made or updated f
 - [**whiskers**](https://github.com/catppuccin/whiskers/) Templating tool for the catppuccin color scheme. In this bucket for now because it isn't popular enough for `main` bucket.
 - [**catwalk**](https://github.com/catppuccin/catwalk/) Preview Image generator tool for the catppuccin color scheme. In this bucket for now because it isn't popular enough for `main` bucket.
 - [**vhdl_ls**](https://github.com/VHDL-LS/rust_hdl) An up-and-coming language server for VHDL written in Rust.
+- [**typos-lsp**](https://github.com/tekumara/typos-lsp) Language Server for the `typos` low-false-posative checker
 
 ## Now Available in `main` or `extras` official buckets
 - [KiCAD](https://kicad.org/) Open-Source PCB Design software.
