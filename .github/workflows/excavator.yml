@@ -1,4 +1,3 @@
-# Executes once a week (Sunday) to fetch updates from all manifests
 on:
   workflow_dispatch:
   schedule:
