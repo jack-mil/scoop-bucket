@@ -7,7 +7,8 @@
         "This manifest does NOT install in portable mode. Instance data will remain in %APPDATA%\\PrismLauncher.",
         "This manifest uses the MinGW build of PrismLauncher, and does NOT require Visual C++ Redistributable to be installed",
         "",
-        "To add Prism Launcher file association options for .ZIPs and .MRPACKS, run this: \"$dir\\install-associations.reg\""
+        "Add Prism Launcher .mrpack file associations by running:",
+        "reg import \"$dir\\install-associations.reg\""
     ],
     "architecture": {
         "64bit": {
@@ -36,6 +37,7 @@
             "Prism Launcher"
         ]
     ],
+    "pre_uninstall": "if ($cmd -eq 'uninstall') { reg import \"$dir\\uninstall-associations.reg\" }",
     "checkver": {
         "github": "https://github.com/PrismLauncher/PrismLauncher"
     },
