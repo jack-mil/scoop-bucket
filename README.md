@@ -11,6 +11,7 @@ This repo contains [scoop](https://scoop.sh/) manifests that I made or updated f
 - [**typos-lsp**](https://github.com/tekumara/typos-lsp) Language Server for the `typos` low-false-positive checker.
 - [**vivid**](https://github.com/sharkdp/vivid) Themeable LS_COLORS generator.
 - [**tinymist**](https://github.com/Myriad-Dreamin/tinymist) Language Server for the `typst` typsetting language.
+- [**prismlauncher**](https://prismlauncher.org/) Powerful and open-source Minecraft launcher. This manifest uses the MinGW builds, and does not install in "portable" mode. Instance data remains in `%APPDATA%\PrismLauncher`. Exists purely as an update and install convenience.
 
 ## Now Available in `main` or `extras` official buckets
 - [KiCAD](https://kicad.org/) Open-Source PCB Design software.
