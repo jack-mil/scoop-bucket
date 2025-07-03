@@ -1,17 +1,17 @@
 {
-    "version": "0.1.39",
+    "version": "0.1.40",
     "homepage": "https://github.com/tekumara/typos-lsp",
     "description": "Source code spell checker for Visual Studio Code, Neovim and other LSP clients ",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tekumara/typos-lsp/releases/download/v0.1.39/typos-lsp-v0.1.39-x86_64-pc-windows-msvc.zip",
-            "hash": "2aca18c25409e603a74d234a483f8bd825f74511ffd30604ec015ce4209826d5",
+            "url": "https://github.com/tekumara/typos-lsp/releases/download/v0.1.40/typos-lsp-v0.1.40-x86_64-pc-windows-msvc.zip",
+            "hash": "4058f1b3f8ab74a1f39463fcc3d480dedf914b0b0e29286c2c3bc2a6d300c4fa",
             "extract_dir": "target/x86_64-pc-windows-msvc/release"
         },
         "arm64": {
-            "url": "https://github.com/tekumara/typos-lsp/releases/download/v0.1.39/typos-lsp-v0.1.39-aarch64-pc-windows-msvc.zip",
-            "hash": "a494184c4aa91a89d2876689f951472344c69daf9e64f8f919fae1b9097d83e5",
+            "url": "https://github.com/tekumara/typos-lsp/releases/download/v0.1.40/typos-lsp-v0.1.40-aarch64-pc-windows-msvc.zip",
+            "hash": "40c6385cd1e9a1040fe441778554d7e2ba165233b141dc977e3a68e124adfacd",
             "extract_dir": "target/aarch64-pc-windows-msvc/release"
         }
     },
