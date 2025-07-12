@@ -7,6 +7,7 @@ This repo contains [scoop](https://scoop.sh/) manifests that I made or updated f
 - [**sioyek3 alpha**](https://github.com/ahrm/sioyek) Very nice PDF reader. Scoop `extras` has the current v2 release. I want to use the dev build for some new features. This could very well break if/when they release another alpha, no idea if they are going to be consistent.**
 - [**whiskers**](https://github.com/catppuccin/whiskers/) Templating tool for the catppuccin color scheme. In this bucket for now because it isn't popular enough for `main` bucket.
 - [**catwalk**](https://github.com/catppuccin/catwalk/) Preview Image generator tool for the catppuccin color scheme. In this bucket for now because it isn't popular enough for `main` bucket.
+- [**lutgen-studio**](https://github.com/ozwaldorf/lutgen-rs) Very early development version of lutgen with a GUI and live preview. Too unstable for the `extras` bucket (rn).
 - [**vhdl_ls**](https://github.com/VHDL-LS/rust_hdl) An up-and-coming language server for VHDL written in Rust.
 - [**typos-lsp**](https://github.com/tekumara/typos-lsp) Language Server for the `typos` low-false-positive checker.
 - [**vivid**](https://github.com/sharkdp/vivid) Themeable LS_COLORS generator.
