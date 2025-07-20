@@ -1,15 +1,15 @@
 {
     "version": "0.13.14",
     "description": "Beautiful and reliable typst code formatter.",
-    "homepage": "https://github.com/Enter-tainer/typstyle",
+    "homepage": "https://github.com/typstyle-rs/typstyle",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Enter-tainer/typstyle/releases/download/v0.13.14/typstyle-x86_64-pc-windows-msvc.exe#/typstyle.exe",
+            "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.13.14/typstyle-x86_64-pc-windows-msvc.exe#/typstyle.exe",
             "hash": "78d11813cb5fb2c137f90ada2c57e39122d6165b2a101d4e81eb65b155c32ab7"
         },
         "arm64": {
-            "url": "https://github.com/Enter-tainer/typstyle/releases/download/v0.13.14/typstyle-aarch64-pc-windows-msvc.exe#/typstyle.exe",
+            "url": "https://github.com/typstyle-rs/typstyle/releases/download/v0.13.14/typstyle-aarch64-pc-windows-msvc.exe#/typstyle.exe",
             "hash": "2701c157e4701465a90995ce66d37a9ba64ff7b6f0a50126b5fec7f7e89f2524"
         }
     },
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Enter-tainer/typstyle/releases/download/v$version/typstyle-x86_64-pc-windows-msvc.exe#/typstyle.exe"
+                "url": "https://github.com/typstyle-rs/typstyle/releases/download/v$version/typstyle-x86_64-pc-windows-msvc.exe#/typstyle.exe"
             },
             "arm64": {
-                "url": "https://github.com/Enter-tainer/typstyle/releases/download/v$version/typstyle-aarch64-pc-windows-msvc.exe#/typstyle.exe"
+                "url": "https://github.com/typstyle-rs/typstyle/releases/download/v$version/typstyle-aarch64-pc-windows-msvc.exe#/typstyle.exe"
             }
         }
     }
